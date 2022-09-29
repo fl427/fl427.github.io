@@ -428,6 +428,38 @@
             
         
         <article class="index-post">
+            <a class="abstract-title" href="/2022/09/29/TS%E6%8A%A5%E9%94%99childrenNotExist/">
+                
+                <span class="abstract-title-text">[Untitled Post]</span>
+            </a>
+            <div class="abstract-content">
+                TS报错，Property ‘children’ does not exist on type ‘Props’2022年9月29日
+问题在把项目升级到 React18 后，发现原来没问题的组件，如果使用了 children 属性，TS 就会编译失败，错误信息如下
+1Property &#x27;children&#x27; does not exist on type &#x27;Props&#x27;.
+原因children属性已经在函数组件中被移除，如果需要使用children属性，则需要手动声明。
+解决第一种方法，手动声明 children 属性。
+12345import * as...
+            </div>
+            <!-- read more -->
+            
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2022/09/29">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/09/29</span>
+                </div>
+                <!-- tags -->
+                
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+    
+        
+        
+        
+        
+            
+        
+        <article class="index-post">
             <a class="abstract-title" href="/2022/09/27/settings/">
                 
                 <span class="abstract-title-text">Settings</span>
@@ -599,7 +631,18 @@ Run server1$ hex...
         
         
         
+        
+        
+        
+        
+        
     
+        
+        
+        
+        
+        
+        
         
         
     
@@ -608,7 +651,7 @@ Run server1$ hex...
     
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 2
+        Total : 3
         </div>
         <!-- search  -->
         
@@ -618,6 +661,21 @@ Run server1$ hex...
     
         
             
+            
+            <div class="archive-year"> Invalid date </div>
+            <ul class="year-list">
+            
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">Invalid date</span>
+            <a class="archive-post-title" href="/2022/09/29/TS%E6%8A%A5%E9%94%99childrenNotExist/">[Untitled Post]</a>
+        </li>
+    
+        
+            
+            
+                
+                </ul>
             
             <div class="archive-year"> 2022 </div>
             <ul class="year-list">
