@@ -426,6 +426,7 @@
         
         
             
+            
         
         <article class="index-post">
             <a class="abstract-title" href="/2022/09/29/TS%E6%8A%A5%E9%94%99childrenNotExist/">
@@ -433,20 +434,28 @@
                 <span class="abstract-title-text">TS报错，Property &#39;children&#39; does not exist on type &#39;Props&#39;</span>
             </a>
             <div class="abstract-content">
-                问题在把项目升级到 React18 后，发现原来没问题的组件，如果使用了 children 属性，TS 就会编译失败，错误信息如下
-1Property &#x27;children&#x27; does not exist on type &#x27;Props&#x27;.
-原因children属性已经在函数组件中被移除，如果需要使用children属性，则需要手动声明。
-解决第一种方法，手动声明 children 属性。
-12345import * as React from &#x27;react&#x27;;type Props = &#123;  children?: Reac...
+                在把项目升级到 React18 后，发现原来没问题的组件，如果使用了 children 属性，TS 就会编译失败，解决方法如下
             </div>
             <!-- read more -->
             
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2022/09/29">
+                <div class="abstract-date" title="Last updated: 2022/09/30">
                     <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/09/29</span>
                 </div>
                 <!-- tags -->
+                
+                    <div class= abstract-tags >
+    
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="React18">React18</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="TS">TS</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="Problem">Problem</a>
+    
+</div>
+
                 
             </div>
         </article>
@@ -696,6 +705,21 @@ Run server1$ hex...
 
         <div class="sidebar-panel-tags">
     <div class="sidebar-tags-name">
+        
+            <span class="sidebar-tag-name" data-tags="React18">
+                <span class="iconfont-archer">&#xe606;</span>
+                React18
+            </span>
+        
+            <span class="sidebar-tag-name" data-tags="TS">
+                <span class="iconfont-archer">&#xe606;</span>
+                TS
+            </span>
+        
+            <span class="sidebar-tag-name" data-tags="Problem">
+                <span class="iconfont-archer">&#xe606;</span>
+                Problem
+            </span>
         
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
